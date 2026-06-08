@@ -1,43 +1,4 @@
-# Terraform with AWS - Complete Video Course 🚀
 
-Welcome to the comprehensive Terraform with AWS video course! This repository contains all code samples and documentation corresponding to each video lesson.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=piyushsachdeva/Terraform-Full-Course-Aws&type=date&legend=top-left)](https://www.star-history.com/#piyushsachdeva/Terraform-Full-Course-Aws&type=date&legend=top-left)
-
-## 🎯 Course Overview
-This course consists of video lessons covering basic to advanced Terraform concepts with AWS cloud, including hands-on projects and real-world scenarios.
-
->Note: If you found the content helpful, consider giving the repository a star ⭐
-
-## 🔗 Join our community 👇
-
-<a href="https://youtube.com/@techtutorialswithpiyush"><img src="https://www.freeiconspng.com/thumbs/youtube-icon/video-youtube-icon--14.png" height="60px"></img></a>
-<a href="https://discord.com/invite/FMtJ2bVRUE"><img src="https://img.icons8.com/color/2x/discord--v2.png" height="60px"></img></a>
-<a href="https://github.com/piyushsachdeva/"><img src="https://user-images.githubusercontent.com/91791257/235086411-9ec7aa5e-c095-44ce-b9e6-57b3bc3fead2.png" height="60px"></img></a>
-<a href="https://twitter.com/thecloudopscomm"><img src="https://i.postimg.cc/pVqVTNJd/X-logo.png" height="60px"></img></a>
-<a href="https://www.linkedin.com/company/thecloudopscomm/"><img src="https://img.icons8.com/fluency/2x/linkedin.png" height="60px"></img></a>
-<a href="https://www.instagram.com/techtutorialswithpiyush/"><img src="https://user-images.githubusercontent.com/91791257/235086447-47658b7b-71fa-4baf-830a-3ba9b3a76a47.png" height="60px"></img></a>
-
-<details>
-<summary> 📋 Prerequisites</summary>
-  
-- [AWS free account or subscription](https://aws.amazon.com/free/)
-- AWS Fundamentals
-- OSI model and protocols - SSH, HTTP, HTTPS, TCP,UDP, SMTP, etc
-- Visual Studio Code or preferred IDE installed
-- Git installed and working knowledge of Git and Github
-- Linux or Mac or WSL(Windows Subsystem for Linux)
-- Linux and Shell scripting
-- Basic understanding of YAML and JSON
-- [Deployment Strategies](https://youtu.be/uj0qDN1EWus)
-- [Networking Fundamentals](https://youtu.be/yUhzvVrwkV8)
-- [IP Addressing](https://youtu.be/G1azmL5-eQI)
-  
-</details>
-
-## 📚 Course Curriculum
 
 <details>
 <summary> Module 1: Core Concepts</summary>
