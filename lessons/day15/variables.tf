@@ -1,28 +1,31 @@
-# Variables for VPC Peering Demo
-
-variable "primary_region" {
-  description = "Primary AWS region for the first VPC"
-  type        = string
-  default     = "us-east-1"
+variable "enviroment" {
+  type = string
+  default = "Demo"
 }
 
-variable "secondary_region" {
-  description = "Secondary AWS region for the second VPC"
+variable "primary_region" {
+  description = "for the primary region"
   type        = string
-  default     = "us-west-2"
+  default = "eu-north-1"
+}
+
+
+variable "secondary_region" {
+  description = "for the secondary region"
+  type        = string
+  default = "eu-west-1"
 }
 
 variable "primary_vpc_cidr" {
-  description = "CIDR block for the primary VPC"
-  type        = string
-  default     = "10.0.0.0/16"
+  default = "10.0.0.0/16"
+  type = string
 }
 
 variable "secondary_vpc_cidr" {
-  description = "CIDR block for the secondary VPC"
-  type        = string
-  default     = "10.1.0.0/16"
+  default = "10.1.0.0/16"
+  type = string
 }
+
 
 variable "primary_subnet_cidr" {
   description = "CIDR block for the primary subnet"
@@ -37,19 +40,18 @@ variable "secondary_subnet_cidr" {
 }
 
 variable "instance_type" {
-  description = "EC2 instance type"
-  type        = string
-  default     = "t2.micro"
+  default = "t3.micro"
+  type = string
 }
 
 variable "primary_key_name" {
-  description = "Name of the SSH key pair for Primary VPC instance (us-east-1)"
-  type        = string
-  default     = ""
+  description = "Name of SSH key pair for primary VPC instance"
+  type = string
+  default = ""
 }
 
 variable "secondary_key_name" {
-  description = "Name of the SSH key pair for Secondary VPC instance (us-west-2)"
-  type        = string
-  default     = ""
+  description = "Name of SSH key pair for secondary VPC instance"
+  type = string
+  default = ""
 }

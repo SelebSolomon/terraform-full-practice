@@ -10,6 +10,11 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration options
-    region = var.region
+    alias = "primary"
+    region = var.primary_region
+}
+
+provider "aws" {
+    alias = "secondary"
+    region = var.secondary_region
 }

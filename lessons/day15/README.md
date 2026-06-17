@@ -67,7 +67,7 @@ This demo showcases **AWS VPC Peering** by creating two VPCs in different AWS re
 ### Creating SSH Key Pairs
 ```bash
 # For us-east-1
-aws ec2 create-key-pair --key-name vpc-peering-demo --region us-east-1 --query 'KeyMaterial' --output text > vpc-peering-demo.pem
+aws ec2 create-key-pair --key-name vpc-peering-demo --region eu --query 'KeyMaterial' --output text > vpc-peering-demo.pem
 
 # For us-west-2
 aws ec2 create-key-pair --key-name vpc-peering-demo --region us-west-2 --query 'KeyMaterial' --output text > vpc-peering-demo-west.pem
