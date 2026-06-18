@@ -1,7 +1,7 @@
-variable "region" {
-  description = "for the primary region"
+variable "aws_region" {
+  description = "AWS region to deploy resources"
   type        = string
-  default = "eu-north-1"
+  default     = "us-east-1"
 }
 
 variable "app_name" {
@@ -24,7 +24,7 @@ variable "instance_type" {
 }
 
 variable "tags" {
-  description = "Tags to apply to all resources"
+  description = " Tags to apply to all resources"
   type        = map(string)
   default = {
     Project     = "BlueGreenDeployment"
@@ -32,5 +32,3 @@ variable "tags" {
     ManagedBy   = "Terraform"
   }
 }
-
-
