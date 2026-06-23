@@ -1,9 +1,14 @@
-variable "subnet_one" {
-  type = string
-  description = "Subnet one cidr"
+variable "azs" {
+  description = "avialablity zones"
+  type = list(string)
 }
 
-variable "subnet_two" {
-  type = string
-  description = "Subnet two cidr"
+variable "public_subnets" {
+  type = list(string)
+  description = "subnet cidrs"
+}
+
+variable "private_subnets" {
+  type = list(string)
+  description = "subnet cidrs"
 }

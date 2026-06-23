@@ -1,7 +1,19 @@
-variable "subnet_one" {
- default = "10.0.1.0/24"
+variable "azs" {
+  description = "avialablity zones"
+  type = list(string)
 }
 
-variable "subnet_two" {
- default = "10.0.2.0/24"
+variable "public_subnets" {
+  type = list(string)
+  description = "subnet cidrs"
 }
+
+variable "private_subnets" {
+  type = list(string)
+  description = "subnet cidrs"
+}
+
+variable "environment" {
+  default = "Demo"
+}
+
